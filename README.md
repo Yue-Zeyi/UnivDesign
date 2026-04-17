@@ -33,7 +33,6 @@ Univ Design 收录了 17 个主流设计系统的**视觉宪法**——每份文
 
 ```
 univ-design/
-├── index.html                 # 在线展示网站
 ├── design.md                  # 总索引：17个系统的一览表与DNA对比
 ├── README.md                  # 项目说明（本文件）
 └── design-systems/            # 设计系统文档目录
@@ -176,12 +175,8 @@ univ-design/
 ### Clone 仓库
 
 ```bash
-git clone https://github.com/你的用户名/univ-design.git
+git clone https://github.com/Yue-Zeyi/UnivDesign.git
 ```
-
-### 在线预览
-
-打开 `index.html` 即可在浏览器中查看交互式展示网站。
 
 ---
 
@@ -190,7 +185,6 @@ git clone https://github.com/你的用户名/univ-design.git
 - 新增设计系统时，在 `design-systems/` 下创建对应的 `.md` 文件，遵循 9 大章节结构
 - 同步更新 `design.md` 总索引中的三个表格（光谱一览、主色速览、DNA对比）
 - 同步更新 `README.md` 中的分类表格和选型建议
-- 同步更新 `index.html` 中的 `systems` 数据数组
 - 保持中文撰写风格：每种颜色有角色，每条规则有理由，保留设计哲学的灵魂语气
 - 令牌名、hex 色值、CSS 属性值保持英文/原样，不翻译
 
@@ -231,6 +225,8 @@ MIT License — 自由使用、修改和分发。
 感谢以上所有设计系统的团队——是你们的哲学、规范和开源精神让这个项目成为可能。Univ Design 是对这些优秀设计系统的整理与致敬，而非替代。
 
 本项目中所有设计系统的知识产权归原团队所有。
+
+特别感谢 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 项目，本项目的灵感与结构参考了该仓库。
 
 ---
 
